@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../dist/jquery-2.2.4.js"></script>
+    <link rel="stylesheet" href="../font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
+
+</head>
+<body>
+<div class="antd-pro">
+    <!--<img class="antd-pro-img" src="../images/bg.svg" alt="" >-->
+    <div class="antd-title">
+
+    </div>
+    <div class="antd-content">
+        <div class="antd-content-img">
+            <a href="../index2.html">
+                <img src="../images/logo.png" alt="">&nbsp;&nbsp;
+                <img class="welcome" src="../images/l-icon.png" alt="">
+            </a>
+        </div>
+        <div class="antd-content-text">
+            <span>宠物提供宠物用品零售、宠物美容、宠物寄养、宠物活体销售的场所。</span>
+        </div>
+    </div>
+    <div class="login-name">
+        <span class="logo_content l_color" id="login">账户登录</span>
+        <span class="logo_content login_color" id="register">账户注册</span>
+    </div>
+    <div class="login_form">
+
+        <div class="login_user">
+            <span class="login_icon user_name_text">
+                <i class="fa fa-user"><input class="user_name" type="text" placeholder="手机号 " id="luser"> </i>
+            </span>
+            <p id="Tips" style="color: red"></p>
+        </div>
+        <div class="login_user">
+            <span class="login_icon user_pass_text">
+                <i class="fa fa-lock"><input class="user_name" type="password" placeholder="密码" id="lpass"> </i>
+            </span>
+            <p id="Tips2" style="color: red"></p>
+        </div>
+        <div class="login_user">
+            <label><input type="checkbox"> <span>下次自动登录</span></label>
+            <span class="color_pass"><a href="">忘记密码?</a></span>
+        </div>
+        <div class="login_user login_user_cg">
+            <button id="login_btn">登 录</button>
+        </div>
+    </div>
+
+
+    <div class="register_form">
+
+        <div class="login_user">
+            <span class="login_icon nickname">
+                <i class="fa fa-user"><input id="rname" class="user_name" type="text" placeholder="用户昵称"> </i>
+            </span>
+            <span class="login-Tips1" style="color: red"></span>
+        </div>
+        <div class="login_user ">
+            <span class="login_icon password">
+                <i class="fa fa-lock"><input id="rpass" class="user_name" type="password" placeholder="至少6位密码，区分大小写"> </i>
+            </span>
+            <span class="login-Tips2" style="color: red"></span>
+        </div>
+        <div class="login_user">
+            <span class="login_icon ophone">
+                <i class="fa fa-tablet"><input id="phone" name="phone" class="user_name ruser" type="text" placeholder="手机号码"></i>
+            </span>
+            <span class="login-Tips3" style="color: red"></span>
+        </div>
+        <div class="login_user">
+            <div class="code_box">
+                <input class="code" type="password" placeholder="验证码">
+                <button class="code_btn" name="code">获取验证码</button>
+            </div>
+            <span class="login-Tips4" style="color: red"></span>
+        </div>
+        <div class="login_user">
+            <button id="res_btn">注册</button>
+            <a id="Already" href="" style="float: right;line-height: 40px">使用已有账户登录</a>
+        </div>
+    </div>
+    <footer class="login_footer">
+        <div>
+            <a href="">条款</a>
+            <a href="">隐私</a>
+            <a href="">条款</a>
+        </div>
+        <div>
+            <span>Copyright &copy; 2018 Webstorm体验技术部出品</span>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
+<script src="../js/login_register.js"></script>
